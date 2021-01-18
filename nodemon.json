@@ -1,0 +1,7 @@
+{
+  "env": {
+    "NODE_ENV": "production",
+    "DATABASE_URL": "postgres://lhcfnbxbbewfbv:f5dae0716896179c6d40dcae300ff6b6ab530ff1161f1c124d6e3f8098f886bd@ec2-34-246-141-162.eu-west-1.compute.amazonaws.com:5432/d8fi086spqj3kf",
+    "JWT_KEY": "secret19670817Aa"
+  }
+}

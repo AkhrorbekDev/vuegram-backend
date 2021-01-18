@@ -18,6 +18,4 @@ yarn-error.log*
 
 .quasar-ide-helper
 
-firebase.conf.json
-nodemon.json
 debug.log
