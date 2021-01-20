@@ -33,7 +33,7 @@ class UserController {
 
   static async getUser(req, res) {
     let { query } = req;
-
+    console.log(query, 'queryyyyyyyyyyyyyyyyyyyy');
     try {
       const user = await UserService.getUser(query);
       if (!user) {
