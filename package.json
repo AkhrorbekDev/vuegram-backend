@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "nodemon server.js",
-    "deploy": " git add . && git commit -am \"make it better\" && git push heroku master",
+    "heroku-deploy": " git add . && git commit -am \"make it better\" && git push heroku master",
+    "git-push": " git add . && git commit -m \"modified\" && git push",
     "logs": "heroku logs -tail -a vuegramm"
   },
   "dependencies": {
